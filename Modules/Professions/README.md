@@ -108,8 +108,8 @@ The perks in *italics* refer to ![shield:prestige] variants. Written in *(parent
 - ![](resources/assets/sprites/loose/angler.png)  **Angler (Lv10)** - Fish are 0.5% more valuable for every unique species caught. Fully-expending a tackle causes it's effects to linger on the fishing rod. *Fish are another 0.5% more valuable for every unique max-sized species caught.*
     - Legendary fish are instead worth 2.5% bonus to fish sell price, including Extended Family.
 	- Lingering tackle effects last for 40 uses (same as regular tackle), effectively doubling tackle duration, but more importantly, allowing different tackles to be used together. **The same tackle effect cannot stack with itself.**
-- ![](resources/assets/sprites/loose/aquarist.png)  **Aquarist (Lv10)** - Fish pond max capacity +2 *(+4)*. Catching bar increases faster for every unique fish species raised in a fish pond.
-	- The catching bar increases 5.5% faster per unique Fish Pond. In multiplayer, **only counts Fish Ponds owned by the player with this profession**.
+- ![](resources/assets/sprites/loose/aquarist.png)  **Aquarist (Lv10)** - Fish pond max capacity +2 *(+4)*. Catching bar decreases slower for every unique fish species raised in a fish pond.
+	- The catching bar decreases 5.5% slower per unique Fish Pond. In multiplayer, **only counts Fish Ponds owned by the player with this profession**.
 	- Also allows raising legendary fish. Extended family can be raised in the same pond as the parent if [PNDS](../Ponds) module is enabled.
 - ![](resources/assets/sprites/loose/trapper.png)  **Trapper (Lv5)** - Crab pots are cheaper to craft. Can trap higher-quality *(highest-quality)* haul.
 	- All trapped fish can have quality up to gold. Chance depends on fishing level (same formula as forage). The Crab Pot recipe is unchanged from vanilla.
