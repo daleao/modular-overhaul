@@ -1,4 +1,4 @@
-﻿{
+{
   // ***************** //
   // ** PROFESSIONS ** //
   // ***************** //
@@ -128,26 +128,25 @@
   "brute.title.female": "亚马逊",
   "brute.desc": "当你受到伤害时变得愤怒，逐渐增加你自己的伤害和攻击速度。+25HP。",
   "brute.desc.prestiged": "保持愤怒的时间是原来的两倍。",
-  "brute.buff.title": "愤怒",
-  "brute.buff.desc": "额外伤害+{{damage}}。",
-  "brute.buff.desc.prestiged": "伤害+{{damage}}。挥动速度+{{speed}}。",
+  "brute.buff.name": "愤怒",
+  "brute.buff.desc": "伤害+{{damage}}。攻击速度+{{speed}}。",
   "poacher.title.male": "游侠",
   "poacher.title.female": "游侠",
-  "poacher.desc": "暴击率+50%。暴击攻击有机会从敌人那里偷走物品。",
+  "poacher.desc": "暴击率+50%。攻击有机会从敌人那里偷走物品。",
   "poacher.desc.prestiged": "成功偷窃后退还特殊动作的冷却时间。",
 
   "rascal.title.male": "流氓",
   "rascal.title.female": "流氓",
   "rascal.desc": "获得一个额外的弹药槽。有35%的机率找回用过的弹药。",
-  "rascal.desc.prestiged": "有35%>>55%的机率找回用过的弹药。可以装备怪兽马斯克发射诱饵弹。",
+  "rascal.desc.prestiged": "有35%>>55%的机率找回用过的弹药。可以装备怪兽香水发射诱饵弹。",
   "desperado.title.male": "亡命之徒",
   "desperado.title.female": "亡命之徒",
   "desperado.desc": "1秒内连续射击不同敌人造成的伤害增加50%。可以对弹弓过度充电以增加弹药威力和横截面。",
-  "desperado.desc.prestiged": "过度充电的射击就像霰弹枪一样射击。",
+  "desperado.desc.prestiged": "过度充电的射击有机会像霰弹枪一样射击。",
   "piper.title.male": "史莱姆风笛手",
   "piper.title.female": "史莱姆女巫",
-  "piper.desc": "如果附近有敌人，会吸引史莱姆。 击败史莱姆时有几率获得随机增益。",
-  "piper.desc.prestiged": "提高了击败史莱姆效果的有效性和多样性。",
+  "piper.desc": "当附近有敌人时会吸引同盟的史莱姆。 击败史莱姆时有几率获得随机效果。",
+  "piper.desc.prestiged": "提高击败史莱姆效果的有效性和多样性。",
   "piper.buff": "粘滑的",
 
 
@@ -202,7 +201,7 @@
   // *********** //
 
   "weapons.sword": "剑",
-  "weapons.club": "Club",
+  "weapons.club": "棍棒",
   "weapons.dagger": "匕首",
   "weapons.dwarven.prefix": "矮人",
   "weapons.elven.prefix": "小精灵",
@@ -228,8 +227,8 @@
   "slingshots.infinity.desc": "这是银河弹弓的真实形态。",
   "objects.galaxy_soul.desc": "一个微小星系的物质化核心。",
 
-  "blueprint.found.first.unknown": "你发现了一张旧蓝图！ 它已经褪色，但您认出了奇怪的符号和 {{type}} 形状的粗略轮廓。 如果你能翻译这些符号就好了...",
-  "blueprint.found.first.known": "你发现了一张旧蓝图！ 它已经褪色，但你可以辨认出微弱的矮人符号和 {{type}} 形状的粗略轮廓。 也许合适的工匠可以从中理解一些东西。",
+  "blueprint.found.first.unknown": "你发现了一张旧蓝图！ 它已经褪色，但您认出了奇怪的符号和{{type}}形状的粗略轮廓。 如果你能翻译这些符号就好了...",
+  "blueprint.found.first.known": "你发现了一张旧蓝图！ 它已经褪色，但你可以辨认出微弱的矮人符号和{{type}}形状的粗略轮廓。 也许合适的工匠可以从中理解一些东西。",
   "blueprint.found.next.unknown": "你发现了另一个旧蓝图！",
   "blueprint.found.next.known": "你发现了另一个矮人蓝图！",
   "blueprint.found.need_guide": "您可能应该抽出时间寻找某种翻译指南。",
@@ -238,7 +237,7 @@
   "blacksmith.forge.explanation": "我可以根据你找到的那些蓝图，锻造一些新武器。如果我有这些奇怪的材料就好了。",
   "blacksmith.forge.confirmation": "哦，你找到了一些奇怪的材料！我会尽快开始。应该在几天内就能好。",
 
-  "dialogue.clint.blueprint.notdone": "嘿，@。我还没有完成破译你的蓝图.$0#$b#也许明天...$2",
+  "dialogue.clint.blueprint.notdone": "嘿，@。我还没有完成破译你的蓝图。$0#$b#也许明天...$2",
   "dialogue.clint.blueprint.done": "嘿，@。我破译了那张旧蓝图。$0#$b#抱歉花了这么长时间。$2#$b#原来它是用一些奇怪的材料制成的武器的配方.$0#$b#画这个的人，是铁匠大师。$2#$b#我真的很想尝试一下，但我不知道在哪里可以找到这些材料.#$b#无论如何，图纸是你找回来的。如果你拿到这些材料，把它带回这里，我会免费为你制造这个武器。",
   "dialogue.gil.virtues": "一个真正的英雄，应该遵循五种英雄美德：荣誉，怜悯，智慧，慷慨和勇敢。具备这些美德的人，会成为由巴眼中的英雄，一定能在冒险中平安归来。#$b#至少我妈妈是这么说的。",
   "dialogue.wizard.curse.canthelp": "对不起，@。恐怕现在连魔法都帮不了你。#$b#你唯一的希望就是求助于神灵。",
@@ -251,7 +250,7 @@
   "events.100162.no_sword": "MarlonsTheme/21 9/farmer -100 -100 0 Marlon 23 6 2/addQuest 14/skippable/pause 1000/move Marlon 0 2 2/pause 500/showFrame Marlon 4/pause 1000/speak Marlon \"嗯嗯... \"/pause 500/warp farmer 18 13/playSound stoneStep/move farmer 0 -3 1/move farmer 5 0 0/pause 500/showFrame Marlon 0/pause 500/speak Marlon \"...我凝视着这个古老的矿井#$b#它已经被遗弃了几十年。\"/pause 500/showFrame Marlon 4/speak Marlon \"不过，那里可能还有好矿石#$b#但是一个黑暗的地方，长时间没有清理......恐怕矿石不是你唯一能找到的东西...\"/pause 500/showFrame Marlon 0/pause 500/speak Marlon \"你应该知道如何挥舞武器吧？你可能需要这个。\"/pause 500/speak Marlon \"顺便说一下，我叫马龙。我就在外面经营冒险家公会#$b#我会盯着你的。证明你自己，我可能会考虑让你成为会员。\"/pause 500/end",
   "events.100162.sword.sve": "MarlonsTheme/21 9/farmer -100 -100 0 MarlonFay 23 6 2/addQuest 14/skippable/pause 1000/move MarlonFay 0 2 2/pause 500/showFrame MarlonFay 19/pause 1000/speak MarlonFay \"嗯嗯... \"/pause 500/warp farmer 18 13/playSound stoneStep/move farmer 0 -3 1/move farmer 5 0 0/pause 500/showFrame MarlonFay 0/pause 500/speak MarlonFay \"...我想知道这个矿井往下，能走多远。#$b#我要在它们开始爬进山谷之前，处理掉这里的一些怪物。$1#$b#你似乎很担心，我可能老了，但还不错，年龄还没有剥夺我用剑的技巧。$0\"/pause 500/showFrame MarlonFay 18/pause 2000/showFrame MarlonFay 0/pause 500/speak MarlonFay \"作为冒险家公会的会长，我遇到过很多战士。我熟悉你的眼神。$2\"/pause 1500/speak MarlonFay \"拿着这个。这是一种训练武器。它可能看起来一般，但你可以用它在这里与怪物战斗。\"/playSound dwop/faceDirection farmer 1 true/pause 50/faceDirection farmer 2/itemAboveHead sword/pause 3300/awardFestivalPrize sword/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/pause 500/speak MarlonFay \"我会盯着你的。证明你自己，我可能会考虑让你成为会员。\"/pause 750/end",
   "events.100162.no_sword.sve": "MarlonsTheme/21 9/farmer -100 -100 0 MarlonFay 23 6 2/addQuest 14/skippable/pause 1000/move MarlonFay 0 2 2/pause 500/showFrame MarlonFay 19/pause 1000/speak MarlonFay \"嗯嗯... \"/pause 500/warp farmer 18 13/playSound stoneStep/move farmer 0 -3 1/move farmer 5 0 0/pause 500/showFrame MarlonFay 0/pause 500/speak MarlonFay \"...我想知道这个矿井往下，能走多远.#$b#我要在它们开始爬进山谷之前，处理掉这里的一些怪物。$1#$b#你似乎很担心。我可能老了，但还不错，年龄还没有剥夺我用剑的技巧。$0\"/pause 500/showFrame MarlonFay 18/pause 2000/showFrame MarlonFay 0/pause 500/speak MarlonFay \"作为冒险家公会的会长，我遇到过很多战士。我熟悉你的眼神。$2\"/pause 300/showFrame MarlonFay 19/pause 1000/showFrame MarlonFat 0/pause 300/speak MarlonFay \"向我证明，你可以挥舞那把武器，我可能会考虑让你成为会员。\"/pause 750/end",
-  "events.1337098.no_purchase": "MarlonsTheme/-500 -500/farmer -200 -200 0 MarlonFay 4 11 2/viewport 6 13 true/skippable/pause 2000/warp farmer 6 19/playSound doorClose/pause 500/showFrame MarlonFay 17/pause 150/textAboveHead MarlonFay \"你找到了一些东西！\"/pause 350/move farmer 0 -5 3/move farmer -2 0 0/move farmer 0 -1 0/showFrame MarlonFay 0/pause 500/speak MarlonFay \"那个武器！没有错！$1#$b#你得到了一把银河剑！\"/pause 1000/showFrame MarlonFay 18/pause 1000/speak MarlonFay \"你的能力被承认了，@。$2#$b#很久之前在城堡村经过一夜的艰苦战斗后，我获得了我的第一把银河武器。#$b#当剑慢慢落入我的手中时，有一道紫色的耀眼光芒。#$b#巫师和学者认为，由巴将这些武器赠送给真正维护和平的人类。\"/pause 1200/speak MarlonFay \"我为你感到骄傲！$1\"/showFrame MarlonFay 0/pause 500/end",
+  "events.1337098.no_purchase": "MarlonsTheme/-500 -500/farmer -200 -200 0 MarlonFay 4 11 2/viewport 6 13 true/skippable/pause 2000/warp farmer 6 19/playSound doorClose/pause 500/showFrame MarlonFay 17/pause 150/textAboveHead MarlonFay \"你找到了一些东西！\"/pause 350/move farmer 0 -5 3/move farmer -2 0 0/move farmer 0 -1 0/showFrame MarlonFay 0/pause 500/speak MarlonFay \"那个武器！没有错！$1#$b#你得到了一把银河武器！\"/pause 1000/showFrame MarlonFay 18/pause 1000/speak MarlonFay \"你的能力被承认了，@。$2#$b#很久之前在城堡村经过一夜的艰苦战斗后，我获得了我的第一把银河武器。#$b#当剑慢慢落入我的手中时，有一道紫色的耀眼光芒。#$b#巫师和学者认为，由巴将这些武器赠送给真正维护和平的人类。\"/pause 1200/speak MarlonFay \"我为你感到骄傲！$1\"/showFrame MarlonFay 0/pause 500/end",
 
   "fromcsfiles.MeleeWeapon.cs.14122": "五彩碎片的颜色越来越明亮。#铱条神奇地从背包中升起时，您感到莫名的引力。在你眼前，金属液化并融合在发光的碎片周围，逐渐呈现出{{type}}的形状。^^#     你获得了 ={{galaxyWeapon}}=  ^",
   "locations.Town.DwarfGrave.Translated": "     你翻译了矮人语:     \n\n'金色三胞胎迷失在沙漠里\n带这大陆上出产的彩虹\n向天祈祷，倾诉你的要求\n让雷声吼咆哮你的名字\n如果心是纯洁的、有意识的、清晰的\n信仰既不怀疑也不恐惧\n星辰将下雨\n并赐予你来自天堂的钢铁",
@@ -277,32 +276,28 @@
   "virtues.honor.name": "荣誉",
   "virtues.honor.flavor": "\"荣誉不能购买。荣誉也不能出售，因為它的价值比世界上所有的宝藏都大。然而，一个人可能会失去它，无论谁这么做都将永远玷污他的名声。一个真正可敬的人总是为自己的行为负责，面对每一个挑战，拒绝撒谎。\"",
   "virtues.honor.objective": "与城镇同胞交谈时选择荣誉之路。",
-  "virtues.honor.trial": "荣誉审判",
   "virtues.compassion.name": "勇气",
   "virtues.compassion.flavor": "\"有许多特征可以见证一个人的真实本性。怜悯心是人与野兽的区别。谁怜悯他们的同胞，谁就永远不会对不幸视而不见。他们将永远为被冤枉的人辩护。\"",
   "virtues.compassion.objective": "让同理心和同情心引导你与城镇同胞的互动。",
-  "virtues.compassion.trial": "慈悲的试炼",
   "virtues.wisdom.name": "智慧",
   "virtues.wisdom.flavor": "\"智慧是一种美德，一个人应该终其一生努力培养，因为没有智慧，一个人就不能变得更聪明。智者知道这一点……当我们在人生的旅途中，我们应该寻求做出明智的选择。请记住，明智的选择不是那些让我们的生活更轻松或更简单的选择。通常，它们使它们更加复杂。但它们总是会让我们变得更好。\"",
   "virtues.wisdom.objective": "向你的城镇同胞提供明智的建议并传授智慧。",
-  "virtues.wisdom.trial": "智慧的试炼",
   "virtues.generosity.name": "慷慨",
   "virtues.generosity.flavor": "\"一个人不与他人分享他们的财富，就不能被称为好人。慷慨是生的尊严和死的平和所必需的。\"",
   "virtues.generosity.objective": "自由地给予并与你的城镇同胞分享你的丰富。",
-  "virtues.generosity.trial": "慷慨的试炼",
   "virtues.valor.name": "勇气",
   "virtues.valor.flavor": "\"勇气不会使人成为好人，但在你的人生旅途中，你遇到过多少懦夫是好人？那些拥有勇气的人毫不犹豫地反对大多数不公，无论后果如何。\"",
   "virtues.valor.objective": "勇敢地保护你的同胞，消灭那些会伤害他们的生物。",
 
-  "virtues.appreciate.singular": "{{name}} appreciates your {{virtue}}.",
-  "virtues.appreciate.plural": "{{name1}} and {{name2}} appreciate your {{virtue}}.",
-  "virtues.recognize.robin": "Robin recognizes your Generosity.",
-  "virtues.recognize.gil": "Yoba recognizes your Valor.",
-  "virtues.recognize.yoba": "Yoba recognizes your Valor.",
-  "virtues.disapprove.singular": "{{name}} disapproves of your lack of {{virtue}}.",
-  "virtues.disapprove.plural": "{{name1}} and {{name2}} disapprove of your lack of {{virtue}}.",
-  "virtues.proven": "{{player}} has proven their {{virtue}}.",
-
+  "virtues.appreciate.singular": "{{name}}欣赏你的{{virtue}}。",
+  "virtues.appreciate.plural": "{{name1}}和{{name2}}欣赏你的{{virtue}}。",
+  "virtues.recognize.robin": "罗宾认可了你的慷慨。",
+  "virtues.recognize.gil": "由巴认可了你的勇气。",
+  "virtues.recognize.yoba": "由巴认可了你的勇气。",
+  "virtues.disapprove.singular": "{{name}}认为你缺少{{virtue}}。",
+  "virtues.disapprove.plural": "{{name1}}和{{name2}}认为你缺少{{virtue}}。",
+  "virtues.proven": "{{player}}已经证明了他的{{virtue}}。",
+  
   // json assets
   "objects.dwarvish_blueprint.name": "古老的矮人蓝图",
   "objects.dwarvish_blueprint.description": "它已褪色，但仍然清晰易读。",
@@ -359,28 +354,28 @@
   "enchantments.bloodthirsty.name": "嗜血",
   "enchantments.mammonite.name": "拜金主义",
   "enchantments.wabbajack.name": "瓦巴杰克",
-  "enchantments.freezing.name": "弗雷尔卓德",
+  "enchantments.freezing.name": "冻结",
   "enchantments.quincy.name": "能量弹",
-  "enchantments.runaan.name": "鲁南",
+  "enchantments.runaan.name": "散射",
 
 
   // *********** //
   // ** TAXES ** //
   // *********** //
 
-  "mail.frs.intro": "Department of the Treasury^Ferngill Revenue Service^^^{{honorific}} Taxpayer,^^This letter is to inform you that your recent address change to Pelican Town, Stardew Valley has been filed and registered. All future correspondence will be directed to {{farm}} farm.^^We kindly remind you that federal income tax contributions are due end-of-day on the 1st of every season. For your convenience, your due obligations will be automatically deducted from your balance. If your balance is insufficient, you will be fined in accordance with section 501(c)(1) of the Ferngill Revenue Code at the rate of {{fine}} and a loan will be issued in your name with the Bank of Stardew, subject to the nominal interest fee of {{interest}} per annum.^^^Sincerely,^^Laura D. Pretto^Executive Directrice, Ferngill Revenue Service[#]FRS Intro",
-  "mail.frs.notice": "Department of the Treasury^Ferngill Revenue Service^^^{{honorific}} Taxpayer,^^This letter is to inform you that your total due income tax for the closing season in the amount of {{due}}g has been automatically deducted from your balance.^^Please keep this letter in your permanent records should you need to resolve any questions regarding your fiscal status.^^^Sincerely,^^Laura D. Pretto^Executive Directrice, Ferngill Revenue Service[#]FRS Notice",
-  "mail.frs.outstanding": "Department of the Treasury^Ferngill Revenue Service^^^{{honorific}} Taxpayer,^^This letter is to inform you that your total due income tax for the closing season in the amount of {{due}}g could not be fully deducted from your balance. In accordance with section 501(c)(1) of the Ferngill Revenue Code, you will be fined an additional {{fine}} and all future income to {{farm}} farm will be levied until your outstanding debt, totaling {{outstanding}}g, is completely settled. Please keep in mind that it is in your best interest to clear any outstanding debts as soon as possible to avoid accruing interest at the rate of {{interest}} per annum.^^Please keep this letter in your permanent records should you need to resolve any questions regarding your fiscal status.^^^Sincerely,^^Laura D. Pretto^Executive Directrice, Ferngill Revenue Service[#]FRS Outstanding",
-  "mail.frs.deduction": "Department of the Treasury^Ferngill Revenue Service^^^{{honorific}} Taxpayer,^^We are pleased to inform you that, upon review of your environmentalist activities, we have determined that you qualify for an income tax deduction of {{deductible}} as per section 501(c)(3) of the Ferngill Revenue Code.^^Please keep this letter in your permanent records should you need to resolve any questions regarding your fiscal status.^^^Sincerely,^^Laura D. Pretto^Executive Directrice, Ferngill Revenue Service[#]FRS Deduction",
-  "mail.frs.deduction.max": "Department of the Treasury^Ferngill Revenue Service^^^{{honorific}} Taxpayer,^^We are pleased to inform you that, upon review of your environmentalist activities, we have determined that you are exempt from Federal income tax as per section 501(c)(3) of the Ferngill Revenue Code. As such, no charges will be made to your balance with respect to the closing season.^^Please keep this letter in your permanent records should you need to resolve any questions regarding your fiscal status.^^^Sincerely,^^Laura D. Pretto^Executive Directrice, Ferngill Revenue Service[#]FRS Deduction",
+  "mail.frs.intro": "财政部^芬吉尔税务局^^^{{honorific}}纳税人,^^这封信是通知你，你最近提出的地址变更至星露谷鹈鹕镇的请求已提交并注册。未来所有的通信都将直接发送至{{farm}}农场。^^我们谨提醒您，联邦所得税缴款每个季节的第一天结束。为了你的方便，你的到期应缴税额将自动从你的余额中扣除。如果你的余额不足，根据芬吉尔税收法典第 501(c)(1)节，您将被罚款，金额为{{fine}}g，星露谷银行将以您的名义发放贷款，加收每年{{interest}}的利息。^^^此致，^^劳拉D.普雷托^税务官，芬吉尔税务局[#]FRS Intro",
+  "mail.frs.notice": "财政部^芬吉尔税务局^^^{{honorific}}纳税人：^^这封信是为了通知您，您在上一季的应缴所得税总额为{{due}}g，已自动从你的余额中扣除。^^如果您需要了解有关你的税务状况，请将此信保存在你的永久记录中。^^^此致，^^劳拉D.普雷托^税务官，芬吉尔税务局[#]FRS Notice",
+  "mail.frs.outstanding": "财政部^芬吉尔税务局^^^{{honorific}}纳税人：^^这封信是为了通知您，您在上一季的应缴所得税总额为{{due}}g，未完全从你的余额中扣除。芬吉尔税收法典第501(c)(1)节，您将被罚款{{fine}}g并且{farm}}农场的所有未来收入将被征收，直到您请偿合计为{{outstanding}}g的全部债务。为了保障你的最佳利益，请尽快清偿未偿税额以避免每年{{interest}}的罚息。^^如果您需要了解有关你的税务状况，请将此信保存在你的永久记录中。^^^此致，^^劳拉D.普雷托^税务官，芬吉尔税务局[#]FRS Outstanding",
+  "mail.frs.deduction": "财政部^芬吉尔税务局^^^{{honorific}}纳税人,^^我们很高兴地通知您，在审查了你的环保活动后，我们确定根据芬吉尔税收法典第501(c)(3)节，你有资格获得所得税减免{{deductible}}g。^^如果您需要了解有关你的税务状况，请将此信保存在你的永久记录中。^^^此致，^^劳拉D.普雷托^税务官，芬吉尔税务局[#]FRS Deduction",
+  "mail.frs.deduction.max": "财政部^芬吉尔税务局^^^{{honorific}}纳税人,^^我们很高兴地通知您，在审查你的环保活动后，我们确定根据芬吉尔税收法典第501(c)(3)节，你有资格获得全额所得税减免。因此，不会扣除你任何税款。^^如果您需要了解有关你的税务状况，请将此信保存在你的永久记录中。^^^此致，^^劳拉D.普雷托^税务官，芬吉尔税务局[#]FRS Deduction",
 
-  "mail.lewis.notice": "@,^As you are aware, one of my duties as mayor of Pelican Town is to levy taxes on all the town's properties. During the preceding fiscal year, the county's assessment of {{farm}} farm's property determined a valuation of {{valuation}}g. As a result, you are liable for {{due}}g in total property taxes for the applicable tax period. I've taken the liberty of charging your account directly. ^On behalf of Pelican Town, I am deeply grateful for your ongoing contributions to our community.  ^  Sincerely, Mr. Lewis[#]Lewis Taxation Notice",
-  "mail.lewis.outstanding": "@,^As you are aware, one my duties as mayor of Pelican Town is to levy taxes on all the town's properties. During the preceding fiscal year, the county's assessment of {{farm}} farm's property determined a valuation of {{valuation}}g. As a result, you are liable for {{due}}g in total property taxes for the applicable tax period. ^Unfortunately, your account was found to have insufficient funds to cover the entire amount. As per county policy, I take no pleasure in informing that you will be fined an additional {{fine}}. The entirety of your deb, totaling {{outstanding}}g, will be sold to the Bank of Stardew, who is authorized to seize all shipping income until the outstanding amount is paid in full, subject to a {{interest}} yearly interest rate. ^Please know that the people of Pelican Town are here to support you if you are facing difficult times.  ^  Sincerely, Mr. Lewis[#]Lewis Taxation Outstanding",
+  "mail.lewis.notice": "@,^如你所知，作为鹈鹕镇的镇长，我的职责之一是对鹈鹕镇的所有财产征税。在上一财政年度，我们对{{farm}}农场财产的评估价值为{{valuation}}g。因此，您需要在适用的纳税期内承担{{due}}g的总财产税。我冒昧地直接向您的帐户收费。^我代表鹈鹕镇，非常感谢您对我们社区的持续贡献。 ^  真诚地，刘易斯[#]Lewis Taxation Notice",
+  "mail.lewis.outstanding": "@,^如你所知，作为鹈鹕镇的镇长，我的职责之一就是对鹈鹕镇的所有财产征税。在上一财政年度，我们对{{farm}}农场财产的评估价值为{{valuation}}g。因此，您需要在适用的纳税期内承担{{due}}g 的总财产税。^很遗憾，您的帐户没有足够的资金来支付全部金额。根据州政策，我很遗憾通知您将被额外罚款{{fine}}g。您的全部债务总计{{outstanding}}g，将抵押给星露谷银行，该银行有权扣押您的所有收入，直到清偿全部债务，但需支付{{interest}}年利率。^请知道，如果您面临困难，鹈鹕镇的人们会为您提供支持。  ^  真诚地，刘易斯[#]Lewis Taxation Outstanding",
 
-  "mail.debt.debit": "Your balance was debited for {{amount}}g towards outstanding debts.",
+  "mail.debt.debit": "你尚有{{amount}}g的未偿债务。",
 
-  "honorific.male": "Dear",
-  "honorific.female": "Dear",
+  "honorific.male": "尊敬的",
+  "honorific.female": "亲爱的",
 
 
   // ************** //
@@ -388,24 +383,26 @@
   // ************** //
 
   "ui.item_hover.damage": " {{amount}}伤害",
-  "ui.item_hover.crate": " {{amount}}暴击几率",
-  "ui.item_hover.cpow": " {{amount}}暴击伤害",
+  "ui.item_hover.c_rate": " {{amount}}暴击几率",
+  "ui.item_hover.c_pow": " {{amount}}暴击伤害",
   "ui.item_hover.knockback": " {{amount}}击退",
   "ui.item_hover.fire_speed": " {{amount}}发射速度",
   "ui.item_hover.swing_speed": " {{amount}}挥动速度",
+  "ui.item_hover.attack_speed": "{{amount}}攻击速度",
   "ui.item_hover.cdr": " {{amount}}冷却缩减",
   "ui.item_hover.resist": " {{amount}}抗性",
-  "ui.item_hover.precision": " {{amount}}精准",
-  "ui.item_hover.light": "它发出光",
-  "ui.item_hover.magnetic": "磁的",
+  "ui.item_hover.precision": " {{amount}}精准", 
+  "ui.item_hover.light": "发光",
+  "ui.item_hover.magnetic": "磁力",
 
-  "ui.buffs.burnt.damage": "-50% Damage",
-  "ui.buffs.burnt.dot": "-{{amount}} health every 3 seconds",
-  "ui.buffs.frozen.stuck": "Cannot move",
-  "ui.buffs.frozen.vulnerable": "Vulnerable to the next attack",
-  "ui.buffs.jinxed.defense": "-5 防御",
-  "ui.buffs.confused": "Disoriented",
-  "ui.buffs.warrior.attack": "+{{value}} 攻击",
+  "ui.buffs.burnt.damage": "-50%伤害",
+  "ui.buffs.burnt.dot": "每3秒减少{{amount}}生命值",
+  "ui.buffs.frozen.stuck": "不能移动",
+  "ui.buffs.frozen.vulnerable": "下一次被攻击易受伤害",
+  "ui.buffs.jinxed.defense": "-5防御",
+  "ui.buffs.jinxed.special": "不能使用特殊移动",
+  "ui.buffs.confused": "混乱",
+  "ui.buffs.warrior.attack": "+{{value}}攻击",
 
   // ********* //
   // * PONDS * //
@@ -670,20 +667,6 @@
   "gmcm.cmbt.controls.auto_selection_range.ranged.desc": "当怪进入次范围，所选远程武器（如果有的话）将自动装备。",
 
   "gmcm.cmbt.ui.color_coded.desc": "是否根据武器的指定等级或唯一状态对武器名称进行着色。",
-  "gmcm.cmbt.ui.color_coded.common.title": "Common Tier Color",
-  "gmcm.cmbt.ui.color_coded.common.desc": "The title color used to identify common-tier weapons",
-  "gmcm.cmbt.ui.color_coded.uncommon.title": "Uncommon Tier Color",
-  "gmcm.cmbt.ui.color_coded.uncommon.desc": "The title color used to identify uncommon-tier weapons",
-  "gmcm.cmbt.ui.color_coded.rare.title": "Rare Tier Color",
-  "gmcm.cmbt.ui.color_coded.rare.desc": "The title color used to identify rare-tier weapons",
-  "gmcm.cmbt.ui.color_coded.epic.title": "Epic Tier Color",
-  "gmcm.cmbt.ui.color_coded.epic.desc": "The title color used to identify epic-tier weapons",
-  "gmcm.cmbt.ui.color_coded.mythic.title": "Mythiv Tier Color",
-  "gmcm.cmbt.ui.color_coded.mythic.desc": "The title color used to identify mythic-tier weapons",
-  "gmcm.cmbt.ui.color_coded.masterwork.title": "Masterwork Tier Color",
-  "gmcm.cmbt.ui.color_coded.masterwork.desc": "The title color used to identify masterwork-tier weapons",
-  "gmcm.cmbt.ui.color_coded.legendary.title": "Legendary Tier Color",
-  "gmcm.cmbt.ui.color_coded.legendary.desc": "The title color used to identify legendary-tier weapons",
   "gmcm.cmbt.ui.sockets.draw.title": "宝石锻造槽的样式",
   "gmcm.cmbt.ui.sockets.draw.desc": "将武器工具提示中的普通“锻造”文本与实际的宝石插座图标重新封装。",
   "gmcm.cmbt.ui.sockets.style.title": "锻造文本的样式",
@@ -933,8 +916,8 @@
   "gmcm.twx.farming.crop_wither_chance.desc": "作物没有每天浇水枯萎的机会。",
   "gmcm.twx.farming.prevent_fruit_tree_winter_growth.title": "防止果树冬季生长",
   "gmcm.twx.farming.prevent_fruit_tree_winter_growth.desc": "普通树木在冬天不能生长。为什么果树会有所不同？",
-  "gmcm.twx.farming.dairy_yield.title": "大产品的产量大于质量",
-  "gmcm.twx.farming.dairy_yield.desc": "一个大鸡蛋或大牛奶产生两个蛋黄酱/奶酪，但质量正常，而不是产生一个黄金质量。",
+  "gmcm.twx.farming.dairy_yield.title": "身临其境的乳制品产量",
+  "gmcm.twx.farming.dairy_yield.desc": "一个大鸡蛋或大壶牛奶产生两个蛋黄酱/奶酪，但质量正常，而不是产生一个黄金质量。",
   "gmcm.twx.farming.spawn_crows.title": "在这些地图上生成乌鸦：",
   "gmcm.twx.maps.islandwest": "姜岛农场",
   "gmcm.twx.maps.custom_garden": "社区花园 (SVE)",
