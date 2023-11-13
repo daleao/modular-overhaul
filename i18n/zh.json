@@ -128,9 +128,8 @@
   "brute.title.female": "亚马逊",
   "brute.desc": "当你受到伤害时变得愤怒，逐渐增加你自己的伤害和攻击速度。+25HP。",
   "brute.desc.prestiged": "保持愤怒的时间是原来的两倍。",
-  "brute.buff.title": "愤怒",
-  "brute.buff.desc": "额外伤害+{{damage}}。",
-  "brute.buff.desc.prestiged": "伤害+{{damage}}。挥动速度+{{speed}}。",
+  "brute.buff.name": "愤怒",
+  "brute.buff.desc": "伤害+{{damage}}，攻击速度+{{speed}}。",
   "poacher.title.male": "游侠",
   "poacher.title.female": "游侠",
   "poacher.desc": "暴击率+50%。攻击有机会从敌人那里偷走物品。",
@@ -365,7 +364,6 @@
   "enchantments.quincy.name": "能量弹",
   "enchantments.runaan.name": "回响的",
 
-
   // *********** //
   // ** TAXES ** //
   // *********** //
@@ -393,9 +391,9 @@
   "ui.item_hover.c_rate": " {{amount}}暴击几率",
   "ui.item_hover.c_pow": " {{amount}}暴击伤害",
   "ui.item_hover.knockback": " {{amount}}击退",
-  "ui.item_hover.fire_speed": " {{amount}}攻击速度",
-  "ui.item_hover.swing_speed": " {{amount}}攻击速度",
-  "ui.item_hover.attack_speed": "{{amount}} Attack Speed",
+  "ui.item_hover.fire_speed": " {{amount}}射击速度",
+  "ui.item_hover.swing_speed": " {{amount}}挥动速度",
+  "ui.item_hover.attack_speed": "{{amount}} 攻击速度",
   "ui.item_hover.cdr": " {{amount}}冷却缩减",
   "ui.item_hover.resist": " {{amount}}抗性",
   "ui.item_hover.precision": " {{amount}}精准",
@@ -410,6 +408,7 @@
   "ui.buffs.jinxed.special": "不能使用特殊移动",
   "ui.buffs.confused": "混乱",
   "ui.buffs.warrior.attack": "+{{value}}攻击",
+  
 
   // ********* //
   // * PONDS * //
