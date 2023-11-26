@@ -253,7 +253,7 @@ internal sealed class TaxDayEndingEvent : DayEndingEvent
         int withheld;
         if (dayIncome >= debtOutstanding)
         {
-            withheld = dayIncome - debtOutstanding;
+            withheld = debtOutstanding;
             debtOutstanding = 0;
             Log.I(
                 $"[TXS]: {taxpayer.Name} has successfully paid off their outstanding debt and will resume earning income from Shipping Bin sales.");
