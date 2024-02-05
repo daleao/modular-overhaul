@@ -10,7 +10,7 @@
   "UniqueID": "DaLion.Overhaul",
   "Name": "Modular Gameplay Overhaul",
   "Author": "DaLion",
-  "Version": "4.2.3",
+  "Version": "4.2.3-Debug",
   "Description": "A complete and comprehensive rework of many gameplay mechanics, offered as a compilation of independent, but deeply integrated, overhaul modules.",
   "MinimumApiVersion": "3.18.0",
   "EntryDll": "DaLion.Overhaul.dll",

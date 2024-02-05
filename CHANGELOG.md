@@ -10,6 +10,8 @@ This file contains a TL;DR of current version changes and hotfixes from across a
 * [TWX]: Fixed freeze when collecting trash from Crab Pot with full inventory.
 * [TWX]: `TrashDoesNotConsumeBait` now applies to fishing rods as well.
 
+<div align=center>- The final update for SDV 1.5.x. -</div>
+
 ## Patch 4.2.2 Highlights
 
 Moved GMCM page links moved to the top of the respective page.
